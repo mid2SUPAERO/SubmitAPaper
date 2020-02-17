@@ -1,0 +1,314 @@
+\documentclass[dvipsnames]{article}
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{doi}
+\usepackage{parskip}
+\usepackage{color}
+\usepackage{subfigure}
+\usepackage{float}
+
+\usepackage{xcolor}
+% Define custom color
+\usepackage{hyperref}
+\colorlet{mblue}{blue!40!black}
+\hypersetup{bookmarksnumbered=true,colorlinks=true,linkcolor=mblue,citecolor=mblue,urlcolor=mblue}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+% Bibtex stuff:
+\usepackage[square,sort,comma,numbers]{natbib}
+% use the natbib options below when using the AIAA style:
+%\usepackage[numbers,sort]{natbib}
+\usepackage{hypernat} % To get natbib to play nicely with hyperref
+
+%===================================================================
+% STANDARD COLORS
+
+% Response color
+\newcommand{\responsecolor}{MidnightBlue}
+
+% Action color
+\newcommand{\actioncolor}{RedOrange}
+
+%===================================================================
+% COUNTERS
+
+% Counter for the number of comments addressed so far.
+% We reset this counter when we move on to another reviewer
+% (This is why we have [section], since we have one section for each reviewer).
+\newcounter{CommentCounter}[section]
+
+%===================================================================
+% ENVIRONMENT DEFINITION
+
+% Quotes
+\newenvironment{myquote}{\begin{quote}\em}{\color{black}\end{quote}}
+
+% Reviewer's comments
+\newenvironment{revcom}
+{
+% Increment counter
+\stepcounter{CommentCounter}
+%
+\textbf{Comment \arabic{CommentCounter}:}
+}
+
+% Author's response
+\newenvironment{response}
+{
+\textbf{\color{\responsecolor} Response:}
+\color{\responsecolor}
+}
+{
+\vspace{20pt}
+}
+
+%===================================================================
+% NEW COMMANDS
+
+% Author's action
+\newcommand{\action}[1]{{\color{\actioncolor} {#1}}}
+
+% Modify section header to include additional text
+\renewcommand{\thesection}{Reviewer \arabic{section} Comments and Response}
+
+% Define dummy command that creates a section just to make the LaTeX more readable
+\newcommand{\newreviewer}{\section{}}
+
+%===================================================================
+% FIGURE CAPTIONS
+% Set all colors to the response format
+\usepackage[font={color=\responsecolor}]{caption}
+
+%===================================================================
+% MANUSCRIPT INFORMATION
+
+\title{Stress-Based Topology Optimization of Compliant \\ Mechanisms using Nonlinear Mechanics \\
+\emph{Mechanics \& Industry} \\
+Manuscript ID mi190235}
+
+\author{
+Gabriele Capasso,
+Simone Coniglio,
+Miguel Charlotte,
+and Joseph Morlier
+}
+\date{}
+\begin{document}
+
+\maketitle
+
+%=========================================================
+%=========================================================
+%=========================================================
+
+\action{Note: Actions taken to address the reviewers comments are highlighted in red.}
+
+% Initialize section for a new reviewer
+\newreviewer
+
+%=========================================================
+\begin{revcom}  
+    Overall comments
+    
+The material presented in the manuscript is both novel and relevant. The contributions to the state-of-the-art are clearly exposed.
+The provided bibliographical references are generally adequate, although stress-constrained TO should be developed further.
+The technical quality of the manuscript is good overall. In particular, the numerical methods and the definitions of the test cases are completely specified.
+The presentation is adequate, but could be improved by using more consistent and specific terminology.
+\end{revcom}
+
+\begin{response}
+    We appreciate the reviewer's positive comments. We tried to fix the weaknesses underlined by the reviewer.
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}
+    [Abstract] It might not be fair to claim that the test cases are "innovative" since they are derived from existing ones.
+\end{revcom}
+    
+\begin{response}
+    \action{We have deleted the word "innovative".}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+     [Section 1] Stress-constrained TO is an active research field and there are many examples of recent works.
+\end{revcom}
+
+\begin{response}
+    We noticed this weakness after having sent the article
+    \action{We have reported some related refernces in the introduction.} 
+    \end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+     [Section 1] Citations [33] and [34] refer to the same document.
+\end{revcom}
+
+\begin{response}
+    \action{We have fixed the problem.}
+\end{response}
+%=========================================================
+
+
+%=========================================================
+\begin{revcom}  
+    [Section 2.2] The proposed definition of shape optimization seems a bit too restrictive, in particular it excludes the so-called free-shape optimization that does not rely on CAD parameters.
+\end{revcom}
+
+\begin{response}
+    \action{We have rephrased this sentence, deleting the reference to shape optimization.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 2.2] It is mentioned that there are three common TO methods but four are listed.
+\end{revcom}
+
+\begin{response}
+    \action{Fixed.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 2.2.1] A citation for the mathematical foundation of SIMP would be appreciated.
+\end{revcom}
+
+\begin{response}
+    \action{We have added a few references.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 2.2.2] It could be mentioned that the CPU-intensive nature of mechanical computations makes gradient-based optimization methods more relevant for TO than (say) genetic algorithms since the latter typically require many evaluations.
+\end{revcom}
+
+\begin{response}
+    It was exactly what we meant. However, it was poorly expressed.
+    \action{We have added this sentence.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 2.2.2] Please clarify why there needs to be a density filter.
+\end{revcom}
+
+\begin{response}
+    It is needed to deal with numerical instabilities typical of TO \cite{sigmund1998numerical}.
+    \action{We have added two sentences elaborating the concept and the main correspondent reference.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 2.2.2] Please specify whether the tolerance is relative or absolute.
+\end{revcom}
+
+\begin{response}
+    Absolute. \action{We have added this detail in the correspondent sentence.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+   [Section 3.1] Using the existing terminology, "classical SIMP" for Eq. (2) and "modified SIMP" for Eq. (3) following e.g. [7], would improve the readability.
+\end{revcom}
+
+\begin{response}
+    \action{We have fixed the terminology, following your suggestion.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 3.3] Please clarifiy the wording: "The author treats..." / "we consider...".
+\end{revcom}
+
+\begin{response}
+    It was a particular assumption of our model. \action{We made this sentence more specific, highlighting that this is a choice of our work.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+     [Section 4.1] The justification for the constraint $C \geq C_{min}$ in Eq. (23) lacks clarity.
+\end{revcom}
+
+\begin{response}
+    \action{We have added an explanation in the correspondent section.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 5] Stress distribution postprocessing seems necessary in general since (1) the corresponding constraint has been approximated (as explained in Section 3.6) and (2) the TO result must generally be interpreted (density thresholding, smoothing, ...).
+\end{revcom}
+
+\begin{response}
+    We absolutely agree with the reviewer. What we meant was the fact that the stress distribution does not need to be computed from scratch, since it is part of the optimization process.
+    \action{We clarified what we meant, totally agreeing with the idea exposed in the comment.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 5.2] Does the term "microscopic stress distribution" correspond to the "relaxed constraint" from Figure 5 ?
+\end{revcom}
+
+\begin{response}
+    Yes. It came from a precedent version of results discussion. \action{We have modified the sentence in Sec. 5.2 for clarity.}
+\end{response}
+%=========================================================
+
+
+%=========================================================
+\begin{revcom}  
+    [Section 5.2.1] Please clarify the terminology "material limits".
+\end{revcom}
+
+\begin{response}
+    We meant "allowable stress" or "stress allowed by material resistance".
+    \action{We have rephrased this sentence in Sec. 5.2.1 for clarity.}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 5.2.2] Please clarify the terminology "evident overlap".
+\end{revcom}
+
+\begin{response}
+    We are sorry for the misspelling. We meant "overshoot"/"local constraint violation". \action{We have rephrased this sentence, introducing the terminology "constraint violation".}
+\end{response}
+%=========================================================
+
+%=========================================================
+\begin{revcom}  
+    [Section 6] What reference is used to quantify the "gain of 318\%" ?
+\end{revcom}
+
+\begin{response}
+    It is the "gain" definition in Control Theory, namely the ratio between output and input.
+    \action{We have rephrased thus sentence for clarity.}
+\end{response}
+%=========================================================
+
+
+
+\pagebreak
+%=========================================================
+
+% REFERENCES
+\bibliographystyle{new-aiaa}
+\bibliography{../R1_Journal/mdolab}
+
+\end{document}
