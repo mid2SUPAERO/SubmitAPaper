@@ -1,5 +1,5 @@
 # SubmitAPaper
-How to deal with Preprint, OATAO, HAL etc...
+How to deal with Preprint, OATAO, HAL, ArXiv etc...
 
 
 When the review process is on. It means you have uploaded your pdf on the editor website and you are waiting for the external reviewers.
@@ -24,24 +24,31 @@ BTW my orcid
 https://orcid.org/0000-0002-1511-2086
 
 
-You can also put on ArXiv at this step. Then it will be automatically read by Institue Clement Ader Website
+You can also put on ArXiv at this step. Then it will be automatically read by Institute Clement Ader Website.
+http://institut-clement-ader.org/author/jmorlier/
+
 
 Then, you shoud wait for the proofs, correct them (style, form ONLY)
 
 BTW the official signatures (depending on your SUPAERO's departement) are:
 
-
+# SIGNATURE
 ISAE-SUPAERO, Université de Toulouse, France
-pour les chercheurs de l’ISAE-SUPAERO
+for ISAE-SUPAERO (DCAS, DAEP, DISC, DEOS)
 
-ICA 
+for DMSM only
 
 ICA, Université de Toulouse, ISAE-SUPAERO, MINES ALBI, UPS, INSA, CNRS, Toulouse, France
+
+(if AIRBUS or RMIT or...) please give 2 signatures for you
 
 Here we go !
 
 ![GUIDE SUPAERO 1/2](https://github.com/mid2SUPAERO/SubmitAPaper/blob/master/Guide12.png)
 ![GUIDE SUPAERO 2/2](https://github.com/mid2SUPAERO/SubmitAPaper/blob/master/Guide22.png)
+
+
+
 
 
 
