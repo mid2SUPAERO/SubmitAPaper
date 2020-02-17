@@ -40,8 +40,8 @@ ICA, Université de Toulouse, ISAE-SUPAERO, MINES ALBI, UPS, INSA, CNRS, Toulous
 
 Here we go !
 
-![Image description](link-to-image)
-![Image description](link-to-image)
+![GUIDE SUPAERO 1/2](https://github.com/mid2SUPAERO/SubmitAPaper/blob/master/Guide12.png)
+![GUIDE SUPAERO 2/2](https://github.com/mid2SUPAERO/SubmitAPaper/blob/master/Guide22.png)
 
 
 
