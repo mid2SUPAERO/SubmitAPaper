@@ -17,9 +17,32 @@ English check after the first round if needed (Ask JM), depending on the journal
 The after R1 (Revision1) if  Accepeted as is, you got your preprint
 
 that can be uploaded on OATAO (then pushed to HAL, please ask it)
+https://oatao.univ-toulouse.fr
+https://hal.archives-ouvertes.fr
 
-You can also put on ArXiv at this step.
+BTW my orcid
+https://orcid.org/0000-0002-1511-2086
+
+
+You can also put on ArXiv at this step. Then it will be automatically read by Institue Clement Ader Website
 
 Then, you shoud wait for the proofs, correct them (style, form ONLY)
 
+BTW the official signatures (depending on your SUPAERO's departement) are:
+
+
+ISAE-SUPAERO, Université de Toulouse, France
+pour les chercheurs de l’ISAE-SUPAERO
+
+ICA 
+
+ICA, Université de Toulouse, ISAE-SUPAERO, MINES ALBI, UPS, INSA, CNRS, Toulouse, France
+
 Here we go !
+
+![Image description](link-to-image)
+![Image description](link-to-image)
+
+
+
+
