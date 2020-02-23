@@ -2,7 +2,8 @@
 How to deal with Preprint, OATAO, HAL, ArXiv etc...
 
 
-When the review process is on. It means you have uploaded your pdf on the editor website and you are waiting for the external reviewers.
+When the review process is on. It means you have uploaded your pdf on the editor website and you are waiting for the external reviewers. you got your preprint here.
+You can put on ArXiv at this step.
 
 3 options Rejected, Major corrections, Minor Corrections.
 
@@ -14,9 +15,9 @@ see response.tex
 
 English check after the first round if needed (Ask JM), depending on the journal UK or US style !
 
-The after R1 (Revision1) if  Accepeted as is, you got your preprint
+The after R1 (Revision1) if  Accepted as is,
 
-that can be uploaded on OATAO (then pushed to HAL, please ask it)
+that you can be upload the preprint on OATAO (then pushed to HAL, please ask it)
 https://oatao.univ-toulouse.fr
 https://hal.archives-ouvertes.fr
 
@@ -24,7 +25,7 @@ BTW my orcid
 https://orcid.org/0000-0002-1511-2086
 
 
-You can also put on ArXiv at this step. Then it will be automatically read by Institute Clement Ader Website.
+ Then it will be automatically read by Institute Clement Ader Website.
 http://institut-clement-ader.org/author/jmorlier/
 
 
