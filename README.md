@@ -18,7 +18,7 @@ English check after the first round if needed (Ask JM), depending on the journal
 The after R1 (Revision1) if  Accepted as is,
 
 that you can be upload the preprint on OATAO (then pushed to HAL, please ask it)
-https://oatao.univ-toulouse.fr
+https://oatao.univ-toulouse.fr (if you have the DOI of the paper ie Digital Identifier! it's easy)
 https://hal.archives-ouvertes.fr
 
 BTW my orcid
