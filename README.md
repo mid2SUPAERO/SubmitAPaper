@@ -1,6 +1,7 @@
 # SubmitAPaper
 How to deal with Preprint, OATAO, HAL, ArXiv etc...
 
+https://sharelex.org/t/que-signifie-preprint-postprint-reprint/171
 
 When the review process is on. It means you have uploaded your pdf on the editor website and you are waiting for the external reviewers. you got your preprint here.
 You can put on ArXiv at this step even with YOUR code
