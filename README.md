@@ -47,12 +47,11 @@ Then, you shoud wait for the proofs, correct them (style, form ONLY)
 BTW the official signatures (depending on your SUPAERO's departement) are:
 
 # SIGNATURE
-ISAE-SUPAERO, Université de Toulouse, France
-for ISAE-SUPAERO (DCAS, DAEP, DISC, DEOS)
+TSAAElab, ISAE-SUPAERO, Université de Toulouse, France
 
-for DMSM only: 
+if sponsored by FONISEN 
 
-ICA, Université de Toulouse, ISAE-SUPAERO, MINES ALBI, UPS, INSA, CNRS, Toulouse, France
+FédérationENAC ISAE-SUPAEROONERA,UniversitédeToulouse, Toulouse, France
 
 (if AIRBUS or RMIT or...) please give 2 signatures for you
 
