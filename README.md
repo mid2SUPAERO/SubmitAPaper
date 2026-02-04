@@ -38,9 +38,6 @@ BTW my orcid
 https://orcid.org/0000-0002-1511-2086
 
 
- Then it will be automatically read by Institute Clement Ader Website.
-http://institut-clement-ader.org/author/jmorlier/
-
 
 Then, you shoud wait for the proofs, correct them (style, form ONLY)
 
